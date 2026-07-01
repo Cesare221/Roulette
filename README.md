@@ -1,6 +1,6 @@
 # Roleta de Decisão
 
-![Banner da Roleta de Decisão](./roletaimagem-banner-clara.png)
+![Banner da Roleta de Decisão](./roletaimagem.png)
 
 Aplicação em React + Vite para escolher opções de forma rápida, visual e divertida.
 
