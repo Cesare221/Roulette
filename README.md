@@ -1,35 +1,47 @@
-# Roleta de Decisão
+# Roleta de Decisao
 
-![Banner da Roleta de Decisão](./roletaimagem.png)
+Aplicacao web para cadastrar opcoes, girar uma roleta e transformar escolhas simples em uma experiencia mais interativa e visual.
 
-Aplicação em React + Vite para escolher opções de forma rápida, visual e divertida.
+[![Demo](https://img.shields.io/badge/Demo-online-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://roulette-beta-eight.vercel.app/)
+[![React](https://img.shields.io/badge/Frontend-React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)](#stack)
+[![Vite](https://img.shields.io/badge/Build-Vite-111827?style=for-the-badge&logo=vite&logoColor=646CFF)](#stack)
+[![Vitest](https://img.shields.io/badge/Testes-Vitest-111827?style=for-the-badge&logo=vitest&logoColor=6E9F18)](#como-validar)
 
-## Live Demo
+![Banner da Roleta de Decisao](./roletaimagem.png)
 
-[Acesse a demo ao vivo](https://roulette-beta-eight.vercel.app/)
+## Visao Geral
 
-## O que ela faz
+A Roleta de Decisao foi criada para explorar uma interface interativa em torno de um problema simples: escolher entre varias opcoes de forma rapida, clara e divertida.
 
-- Adiciona, remove e limpa opções
-- Gira uma roleta com animação
-- Mantém histórico de resultados
-- Importa listas por linha ou por `;`
-- Exporta as opções como arquivo `.txt` e copia a lista para a área de transferência
-- Embaralha a lista antes do sorteio
-- Salva opções, histórico e tema no `localStorage`
-- Respeita `prefers-reduced-motion`
+Mais do que a regra de sorteio, o foco do projeto esta na experiencia de uso, nos feedbacks visuais e na sensacao de fluidez durante a interacao.
 
-## Diferenciais para portfólio
+## O que o sistema faz
 
-- Interface com hierarquia visual mais forte
-- Layout responsivo
-- Feedbacks claros de ação e estado
-- Presets prontos para uso
-- Testes automatizados com Vitest e Testing Library
+- adiciona, remove e limpa opcoes;
+- gira a roleta com animacao;
+- salva historico de resultados;
+- importa listas por linha ou por `;`;
+- exporta opcoes em `.txt`;
+- copia a lista para a area de transferencia;
+- salva opcoes, tema e historico no `localStorage`;
+- respeita `prefers-reduced-motion`.
 
-## Descrição para portfólio
+## Stack
 
-Roleta de Decisão é um aplicativo web desenvolvido em React + Vite que transforma escolhas simples em uma experiência visual mais envolvente. O projeto combina uma interface premium, histórico de sorteios, importação e exportação de opções, tema claro/escuro e feedbacks bem definidos, com foco em usabilidade, acabamento visual e apresentação profissional para portfólio.
+- React 19
+- Vite
+- Vitest
+- Testing Library
+- localStorage
+- Vercel
+
+## Diferenciais do projeto
+
+- microinteracoes com feedback visual;
+- estrutura pensada para uso casual e rapido;
+- layout responsivo;
+- historico e presets para recorrencia;
+- testes automatizados para comportamentos principais.
 
 ## Como executar
 
@@ -47,14 +59,29 @@ npm run build
 
 ## Deploy
 
-O projeto está pronto para deploy em Vercel com as configurações padrão do Vite.
+O projeto esta pronto para deploy em Vercel com a configuracao padrao do Vite.
 
-1. Envie o repositório para o GitHub.
-2. Importe o projeto na Vercel.
-3. Use:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
+## Objetivo do projeto
 
-## Ideia de uso
+Este projeto faz parte do meu portfolio como exemplo de interface interativa com foco em UX, microinteracoes e sensacao de uso. Ele foi desenvolvido para demonstrar:
 
-Use esta roleta para decidir refeições, filmes, tarefas rápidas, temas de reunião ou qualquer cenário onde uma escolha aleatória ajude a destravar a próxima ação.
+- qualidade de acabamento em frontend;
+- preocupacao com feedbacks e estados da interface;
+- persistencia local para experiencia leve;
+- estrutura de testes em uma aplicacao visual.
+
+## Demo
+
+- Aplicacao online: https://roulette-beta-eight.vercel.app/
+
+## Repositorio
+
+- Codigo: https://github.com/Cesare221/Roulette
+
+## Contato
+
+- Portfolio: https://cesarddev.com.br/
+- GitHub: https://github.com/Cesare221
+- LinkedIn: https://linkedin.com/in/cdelmondes
+
+Se este projeto fizer sentido para o seu contexto, fico a disposicao para conversar sobre frontend, UX e interacoes web.
