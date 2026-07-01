@@ -4,6 +4,10 @@
 
 Aplicação em React + Vite para escolher opções de forma rápida, visual e divertida.
 
+## Live Demo
+
+[Acesse a demo ao vivo](https://roulette-beta-eight.vercel.app/)
+
 ## O que ela faz
 
 - Adiciona, remove e limpa opções
