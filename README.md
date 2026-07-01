@@ -1,5 +1,7 @@
 # Roleta de Decisão
 
+![Banner da Roleta de Decisão](./roletaimagem-banner-clara.png)
+
 Aplicação em React + Vite para escolher opções de forma rápida, visual e divertida.
 
 ## O que ela faz
@@ -20,6 +22,10 @@ Aplicação em React + Vite para escolher opções de forma rápida, visual e di
 - Feedbacks claros de ação e estado
 - Presets prontos para uso
 - Testes automatizados com Vitest e Testing Library
+
+## Descrição para portfólio
+
+Roleta de Decisão é um aplicativo web desenvolvido em React + Vite que transforma escolhas simples em uma experiência visual mais envolvente. O projeto combina uma interface premium, histórico de sorteios, importação e exportação de opções, tema claro/escuro e feedbacks bem definidos, com foco em usabilidade, acabamento visual e apresentação profissional para portfólio.
 
 ## Como executar
 
