@@ -678,7 +678,23 @@ export default function App() {
       </main>
 
       <footer className="credit">
-        <span>Desenvolvido por Cesar Augusto</span>
+        <span className="credit-kicker">Desenvolvido por</span>
+        <a
+          className="credit-name"
+          href="https://cesarddev.com.br/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Cesar Augusto
+        </a>
+        <a
+          className="credit-link"
+          href="https://cesarddev.com.br/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          cesarddev.com.br
+        </a>
       </footer>
     </div>
   )

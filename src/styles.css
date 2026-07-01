@@ -766,14 +766,37 @@ body[data-theme="light"] .header {
 /* ─── Footer ─────────────────────────────────────── */
 .credit {
   text-align: center;
-  padding: 20px 24px 32px;
-  font-size: 0.75rem;
+  padding: 20px 24px 34px;
+  display: grid;
+  justify-items: center;
+  gap: 5px;
   color: var(--text-muted);
+}
+.credit-kicker {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.credit-name {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  transition: color var(--transition), transform var(--transition);
+}
+.credit-name:hover {
+  color: var(--accent);
+  transform: translateY(-1px);
 }
 .credit-link {
   color: var(--text-secondary);
   text-decoration: none;
+  font-size: 0.75rem;
   font-weight: 500;
+  letter-spacing: 0.03em;
   transition: color var(--transition);
 }
 .credit-link:hover { color: var(--accent); }
