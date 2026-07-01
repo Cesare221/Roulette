@@ -678,7 +678,7 @@ export default function App() {
       </main>
 
       <footer className="credit">
-        <span>Desenvolvido para decisões rápidas e sem estresse.</span>
+        <span>Desenvolvido por Cesar Augusto</span>
       </footer>
     </div>
   )
